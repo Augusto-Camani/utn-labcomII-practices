@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 2: Tablas</title>
+    <style>
+        table,
+        td,
+        th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        }
+        table {
+        width: 100%;
+        }
+        </style>
+</head>
+<body>
+    <h2>Bandas favoritas:</h2>
+    <table>
+        <tr>
+            <th>Thrash Metal</th>
+            <th>Heavy Metal</th>
+            <th>Nu Metal</th>
+            <th>Black Metal</th>
+        </tr>
+        <tr>
+            <td>Metallica</td>
+            <td>Iron Maiden</td>
+            <td>SOAD</td>
+            <td>Immortal</td>
+        </tr>
+        <tr>
+            <td>Megadeth</td>
+            <td>Judas Priest</td>
+            <td>Mudvayne</td>
+            <td>Burzum</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <caption>Discografía de Abbath preferida:</caption>
+        <thead>
+            <th>Banda</th>
+            <th>Nombre del disco</th>
+            <th colspan="2">Link</th>
+            <th>Año</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">IMMORTAL</td>
+                <td>Blizzard Beasts</td>
+                <td colspan="2"><a href="https://en.wikipedia.org/wiki/Blizzard_Beasts" target="_blank">https://en.wikipedia.org/wiki/Blizzard_Beasts</a></td>
+                <td>1997</td>
+            </tr>     
+            <tr>
+                <td>All Shall Fall</td>
+                <td colspan="2"><a href="https://en.wikipedia.org/wiki/All_Shall_Fall" target="_blank">https://en.wikipedia.org/wiki/All_Shall_Fall</a></td>
+                <td>2009</td>
+            </tr>
+            <tr>
+                <td>Solista</td>
+                <td>Abbath</td>
+                <td colspan="2"><a href="https://en.wikipedia.org/wiki/Abbath_(album)" target="_blank">https://en.wikipedia.org/wiki/Abbath_(album)</a></td>
+                <td>2016</td>
+            </tr>  
+       
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Cantidad de albumes totales:</td>
+                <td>12</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
