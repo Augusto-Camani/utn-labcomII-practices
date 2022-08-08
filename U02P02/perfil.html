@@ -12,46 +12,66 @@
         <fieldset>
             <input type="text" value="ESTUDIANTE" readonly/>
             <br>
-            <label for="">Nombre:</label>
+            <label for="nombre">Nombre:</label>
             <br>
-            <input type="text" placeholder="" name="" required/>
+            <input type="text" placeholder="Ingrese su nombre" name="nombre" required/>
             <br>
-            <label for="">Apellido:</label>
+            <label for="apellido">Apellido:</label>
             <br>
-            <input type="text" placeholder="" name="" required/>
+            <input type="text" placeholder="Ingrese su apellido" name="apellido" required/>
             <br>
-            <label for="">Correo electrónico:</label>
+            <label for="mail">Correo electrónico:</label>
             <br>
-            <input type="text" placeholder="" name="" required/>
+            <input type="email" placeholder="Ingrese su correo electrónico" name="mail" required/>
             <br>
-            <label for="">Edad:</label>
+            <label for="edad">Edad:</label>
             <br>
             <input type="number">
+            <br>
+            <label for="nacionalidad">Nacionalidad:</label>
+            <br>
+            <select name="nacionalidad" id="nacionalidad" required>
+                <option value="nacionalidad">Argentina</option>
+                    <option value="nacionalidad">Bolivia</option>
+                    <option value="nacionalidad">Brasil</option>
+                    <option value="nacionalidad">Chile</option>
+                    <option value="nacionalidad">Paraguay</option>
+                    <option value="nacionalidad">Uruguay</option>
+                    <option value="nacionalidad">Otros</option>
+            </select>
+            <br>
+            <label for="claboral">Condición laboral:</label>
+            <br>
+            <select name="claboral" id="claboral" required>
+                <option value="claboral">Desempleado</option>
+                <option value="claboral">En búsqueda laboral</option>
+                <option value="claboral">Trabajo part-time</option>
+                <option value="claboral">Trabajo full-time</option>
+            </select>
         </fieldset>
         <br>
         <fieldset>
-            <label for="">Género musical favorito:</label>
+            <label for="gmusical">Género musical favorito:</label>
             <br>
-            <input type="text"/>
+            <input type="text" placeholder="Ingrese género musical favorito" name="gmusical"/>
             <br>
             <label for="">Comida favorita:</label>
             <br>
-            <select name="" id="">
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
+            <select name="comida" id="comida">
+                <option value="comida">Milanesa con puré</option>
+                <option value="comida">Pastas</option>
+                <option value="comida">Asado</option>
+                <option value="comida">Pizza</option>
+                <option value="comida">Empanadas</option>
+                <option value="comida">Otros</option>
             </select>
             <br>
-            <label for=""></label>
+            <label for="boton"></label>
             <br>
-            <input type="submit"/>
+            <input type="submit" name="boton"/>
             <br>
-            <label for="">Recordar datos</label>
-            <input type="checkbox"/>
+            <label for="check">Recordar datos</label>
+            <input type="checkbox" name="check"/>
         </fieldset>
     </form>
 
